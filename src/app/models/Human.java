@@ -31,7 +31,7 @@ public class Human implements Participant {
             System.out.println(name + " перестрибнув " + height + " м. ");
             return true;
         }else{
-            System.out.println(name + " не зміг перестрибнути" + height + " м. ");
+            System.out.println(name + " не зміг перестрибнути " + height + " м. ");
             return false;
         }
     }
