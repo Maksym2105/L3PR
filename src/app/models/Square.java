@@ -4,8 +4,14 @@ import app.service.Area;
 
 public class Square implements Area {
 
+    private double side;
+
+    public Square(double side) {
+        this.side = side;
+    }
+
     @Override
     public double getArea() {
-        return 0;
+        return side * side;
     }
 }

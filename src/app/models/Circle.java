@@ -4,10 +4,14 @@ import app.service.Area;
 
 public class Circle implements Area {
 
+    private double radius;
 
+    public Circle(double radius) {
+        this.radius = radius;
+    }
 
     @Override
     public double getArea() {
-        return 0;
+        return Math.PI * radius * radius;
     }
 }
